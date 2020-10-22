@@ -1,5 +1,6 @@
 {
   "name": "videos",
+  "homepage": "https://dustin2906.github.io/Searching-Video",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "redeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
